@@ -42,9 +42,9 @@ char	*ft_strchr(const char *s, int c)
 
 char	*ft_strjoin(char *s1, char *s2)
 {
-	unsigned int	i;
-	unsigned int	j;
-	char			*s3;
+	int		i;
+	int		j;
+	char	*s3;
 
 	if (!s1)
 	{

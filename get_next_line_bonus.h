@@ -1,26 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkardes <mkardes@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/19 01:12:31 by mkardes           #+#    #+#             */
-/*   Updated: 2022/02/19 01:13:32 by mkardes          ###   ########.fr       */
+/*   Created: 2022/02/19 12:52:18 by mkardes           #+#    #+#             */
+/*   Updated: 2022/02/19 12:52:32 by mkardes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 4
 # endif
 
 # include <unistd.h>
+# include <stdlib.h>    
 # include <fcntl.h>
-# include <stdlib.h>
-# include <stdio.h>
 
 size_t	ft_strlen(const char *s);
 char	*ft_strchr(const char *s, int c);

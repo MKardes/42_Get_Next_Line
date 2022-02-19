@@ -6,11 +6,11 @@
 /*   By: mkardes <mkardes@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/18 23:03:43 by mkardes           #+#    #+#             */
-/*   Updated: 2022/02/19 12:40:19 by mkardes          ###   ########.fr       */
+/*   Updated: 2022/02/19 12:52:47 by mkardes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*get_putten(char *putline)
 {

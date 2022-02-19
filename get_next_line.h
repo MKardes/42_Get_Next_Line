@@ -6,7 +6,7 @@
 /*   By: mkardes <mkardes@student.42kocaeli.com.tr  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/19 01:12:31 by mkardes           #+#    #+#             */
-/*   Updated: 2022/02/19 01:13:32 by mkardes          ###   ########.fr       */
+/*   Updated: 2022/02/19 12:50:55 by mkardes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@
 # endif
 
 # include <unistd.h>
-# include <fcntl.h>
 # include <stdlib.h>
-# include <stdio.h>
 
 size_t	ft_strlen(const char *s);
 char	*ft_strchr(const char *s, int c);
